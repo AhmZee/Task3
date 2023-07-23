@@ -1,0 +1,159 @@
+@media (min-width: 700px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .mobile-header {
+    display: none;
+  }
+
+  .previous-next {
+    display: none;
+  }
+
+  .container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .desktop-header {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 150px 1fr 60px 80px;
+  }
+
+  .cart-icon-desk {
+    width: 17px;
+    height: 17px;
+    margin-left: auto;
+    margin-top: 8px;
+    display: block;
+  }
+
+  .prof-image-desk {
+    width: 35px;
+    height: 35px;
+    margin-left: auto;
+    margin-top: 18px;
+    display: block;
+    border-radius: 20px;
+  }
+
+  .menu-lists-desktop {
+    font-size: 12px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+    
+  .menu-lists-desktop a {
+    margin-left: 0;
+    color: hsl(219, 9%, 45%);
+  }
+
+  .hr-line {
+    max-width: 900px;
+    border-top: 1px solid hsla(217, 9%, 45%, 0.281);
+    padding-top: 40px;
+  }
+
+  .left-right-flex {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .idb-cartbtn-box {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .incre-decre-box,
+  .cart-button {
+    max-width: 230px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 7px;
+  }
+
+  .incre-decre-box {
+    width: 220px;
+  }
+
+  .price-box {
+    display: grid;
+    grid-template-columns: 5px 1fr;
+  }
+
+  .percentage {
+    margin-left: 110px;
+    margin-bottom: 5px;
+  }
+
+  .par-2 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .par-3 {
+    font-size: 14px;
+  }
+
+  .old-price {
+    margin-bottom: 30px;
+  }
+
+  .minus {
+    width: 9px;
+    height: 3px;
+    margin-top: 17px;
+  }
+
+  .num {
+    margin-top: 10px;
+  }
+
+  .plus {
+    width: 8px;
+    height: 8px;
+    margin-top: 15px;
+  }
+
+  .left-con {
+    margin-left: 30px;
+    max-width: 350px;
+    min-width: 300px;
+  }
+
+  .right-con {
+    max-width: 450px;
+    max-height: 400px;
+    padding-top: 40px;
+  }
+
+  .main-image {
+    border-radius: 10px;
+  }
+  .sub-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 24px;
+  }
+
+  .sub-1,
+  .sub-2,
+  .sub-3,
+  .sub-4 {
+    max-width: 70px;
+    border-radius: 7px;
+  }
+}

@@ -1,0 +1,370 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: hsl(223, 64%, 98%);
+  padding-bottom: 50px;
+}
+
+.hamburger-menu {
+  width: 25px;
+  height: 20px;
+  margin-left: 25px;
+  margin-right: 10px;
+  border: none;
+  background-color: hsl(223, 64%, 98%);
+  position: relative;
+}
+
+.menu-list-con {
+  width: 260px;
+  height: 120vh;
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  background-color: hsl(223, 64%, 98%);
+  pointer-events: none;
+  display: none;
+}
+
+.menu-lists-desktop,
+.desktop-header {
+  display: none;
+}
+
+.close-icon {
+  color: hsl(220, 13%, 13%);
+  margin-top: 50px;
+  padding-left: 230px;
+  font-weight: bold;
+  text-align: left;
+}
+
+a {
+  display: block;
+  list-style: none;
+  margin-left: 45px;
+  text-align: left;
+  line-height: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  color: hsl(220, 13%, 13%);
+}
+
+.light-box {
+  width: 500px;
+  height: 100%;
+  background-color: black;
+  margin-left: 260px;
+  opacity: 0.5;
+  position: absolute;
+  top: -40px;
+}
+
+.hamburger-menu:focus .menu-list-con {
+  display: block;
+}
+
+.mobile-header {
+  width: 100%;
+  height: 60px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+  background-color: hsl(223, 64%, 98%);
+  position: fixed;
+}
+
+.hamburger-icon {
+  width: 18px;
+  height: 14px;
+  margin-top: 20px;
+}
+
+.sneakers {
+  font-size: 30px;
+  color: hsl(220, 13%, 13%);
+  margin-top: 6px;
+}
+
+.cart-icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+}
+
+.prof-image {
+  width: 25px;
+  height: 25px;
+  margin-top: 16px;
+  border-radius: 20px;
+}
+
+.prof-image-con {
+  max-width: 100%;
+}
+
+.main-image {
+  margin-top: 23px;
+  width: 100%;
+}
+
+.sub-images {
+  display: none;
+}
+
+.previous-next {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50%;
+}
+
+.previous {
+  padding: 10px;
+  width: 15px;
+  height: 17px;
+  background-color: hsl(223, 64%, 98%);
+  border-radius: 40px;
+  margin-left: 20px;
+}
+
+.next {
+  padding: 10px;
+  width: 15px;
+  height: 17px;
+  background-color: hsl(223, 64%, 98%);
+  border-radius: 40px;
+  margin-right: 20px;
+}
+
+main {
+  margin: 20px;
+}
+
+.par-1 {
+  color: hsl(26, 100%, 55%);
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.par-2 {
+  font-size: 27px;
+  font-weight: bolder;
+  line-height: 30px;
+  margin-top: 25px;
+  color: hsl(220, 13%, 13%);
+}
+
+.par-3 {
+  line-height: 25px;
+  margin-top: -10px;
+  color: hsl(219, 9%, 45%);
+}
+
+.price-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 27px;
+  font-weight: bold;
+  color: hsl(220, 13%, 13%);
+  margin-right: -100px;
+}
+
+.percentage {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 6px;
+  padding-right: 3px;
+  padding-top: 2.5px;
+  width: 35px;
+  height: 20px;
+  margin-top: 4px;
+  margin-right: -10px;
+  margin-left: 6px;
+  border-radius: 5px;
+  color: hsl(26, 100%, 55%);
+  background: hsl(24, 63%, 92%);
+}
+
+.old-price {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: line-through;
+  margin-top: 7px;
+  margin-right: 0;
+  color: hsl(219, 9%, 45%);
+  margin-bottom: 20px;
+}
+
+.incre-decre-box {
+  width: 100%;
+  height: 50px;
+  background: hsl(25, 100%, 94%);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.minus {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: hsl(26, 100%, 55%);
+  letter-spacing: -2px;
+  margin-top: 20px;
+  width: 12px;
+  height: 4px;
+}
+
+.num {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.plus {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: hsl(26, 100%, 55%);
+  margin-top: 18px;
+  width: 10px;
+  height: 10px;
+}
+
+.cart-button {
+  width: 100%;
+  height: 50px;
+  padding-top: 15px;
+
+  background: hsl(25, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: hsl(26, 100%, 55%);
+  color: hsl(223, 64%, 98%);
+}
+
+.cart-icon2 {
+  width: 15px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  color: hsl(223, 64%, 98%);
+}
+
+.add-to-cart {
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+/* FOR HOVER $ FOCUS */
+
+.menu-lists-desktop a:hover {
+  border-bottom: 3px solid hsl(26, 100%, 55%);
+  color: hsl(220, 13%, 13%);
+}
+
+.hamburger-icon:hover,
+.cart-button:hover,
+.cart-icon:hover,
+.cart-icon-desk:hover,
+.previous:hover,
+.next:hover,
+.sub-1:hover,
+.sub-2:hover,
+.sub-3:hover,
+.sub-4:hover,
+.minus:hover,
+.plus:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.cart-prop-mob {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+}
+
+.cart-items-desk {
+  margin-left: 50px;
+  width: 270px;
+  height: 180px;
+  background-color: hsl(223, 64%, 98%);
+  border-radius: 5px;
+  box-shadow: 1px 15px 36px -25px;
+}
+
+.cart {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-bottom: 0.5px solid hsla(217, 9%, 45%, 0.281);
+  color: hsl(220, 13%, 13%);
+}
+
+.cart-info {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  color: hsl(219, 9%, 45%);
+}
+
+.cart-prop-desk {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+}
+
+.cart-items-mob {
+  margin-left: 18px;
+  position: absolute;
+  top: 65px;
+  width: 360px;
+  height: 250px;
+  margin-right: 210px;
+  background-color: hsl(223, 64%, 98%);
+  border-radius: 8px;
+  box-shadow: 1px 15px 36px -25px;
+  display: none;
+}
+
+.cart-items-desk {
+  position: absolute;
+  top: 40px;
+  display: none;
+}
+
+.cart-prop-desk:hover .cart-items-desk {
+  display: block;
+}
+
+.cart-prop-mob:hover .cart-items-mob {
+  display: block;
+}
+
+.prof-image:hover,
+.prof-image-desk:hover {
+  border: 2px solid hsl(26, 100%, 55%);
+  cursor: pointer;
+}
